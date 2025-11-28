@@ -126,6 +126,15 @@ for(let i = 0; i < CarTypes.length; i++){
 
 //--- Part 5 ----------------------------------------------------------------------------------------------
 /* Put your code below here!*/
+const selectTask5Animals = document.getElementById("selectTask5Animals");
+const textTask5Output = document.getElementById("textTask5Output");
+
+function SelectedTask5AnimalsChange(){
+  const animalValue = selectTask5Animals.value;
+  tetTask50Output.innerHTML = "User selected animal number: " + animalValue;
+ 
+}
+selectTask5Animals.addEventListener("change", SelectedTask5AnimalsChange);
 
 //--- Part 6 ----------------------------------------------------------------------------------------------
 /* Put your code below here!*/
